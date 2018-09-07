@@ -1,5 +1,7 @@
 # pull-stream-to-async-iterator
 
+[![Build Status](https://travis-ci.org/alanshaw/pull-stream-to-async-iterator.svg?branch=master)](https://travis-ci.org/alanshaw/pull-stream-to-async-iterator) [![dependencies Status](https://david-dm.org/alanshaw/pull-stream-to-async-iterator/status.svg)](https://david-dm.org/alanshaw/pull-stream-to-async-iterator)
+
 > Convert a pull stream to an async iterator
 
 ## Install
