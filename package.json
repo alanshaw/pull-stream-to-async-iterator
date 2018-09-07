@@ -1,0 +1,29 @@
+{
+  "name": "pull-stream-to-async-iterator",
+  "version": "0.0.0",
+  "description": "Convert a pull stream to an async iterator",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=lcov --reporter=text ava"
+  },
+  "keywords": [
+    "pull",
+    "stream",
+    "async",
+    "iterator",
+    "await"
+  ],
+  "author": "Alan Shaw",
+  "license": "MIT",
+  "dependencies": {
+    "pull-stream": "^3.6.9"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-beta.8",
+    "nyc": "^13.0.1"
+  },
+  "ava": {
+    "babel": false,
+    "compileEnhancements": false
+  }
+}
