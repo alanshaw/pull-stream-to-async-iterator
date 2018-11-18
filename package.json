@@ -25,5 +25,13 @@
   "ava": {
     "babel": false,
     "compileEnhancements": false
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanshaw/pull-stream-to-async-iterator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/pull-stream-to-async-iterator/issues"
+  },
+  "homepage": "https://github.com/alanshaw/pull-stream-to-async-iterator#readme"
 }
