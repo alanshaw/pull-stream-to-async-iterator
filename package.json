@@ -1,6 +1,6 @@
 {
   "name": "pull-stream-to-async-iterator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert a pull stream to an async iterator",
   "main": "index.js",
   "scripts": {
