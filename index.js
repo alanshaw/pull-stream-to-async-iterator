@@ -19,7 +19,7 @@ module.exports = source => {
     while (true) {
       const { end, data } = await _read()
       if (end) break
-      yield data
+      return data
     }
   })()
 }
