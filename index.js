@@ -1,7 +1,7 @@
 const pull = require('pull-stream')
 
 module.exports = source => {
-  return (async function * () {
+  return (async function () {
     let _read
 
     const sink = read => {
