@@ -1,4 +1,4 @@
-const pull = require('pull-stream')
+const pull = require('pull-stream/pull')
 
 module.exports = source => {
   return (async function * () {
