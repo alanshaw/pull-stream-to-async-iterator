@@ -1,7 +1,7 @@
 const pull = require('pull-stream/pull')
 
 module.exports = source => {
-  return (async function * () {
+  return (async function () {
     let _read
 
     const sink = read => {
@@ -19,7 +19,7 @@ module.exports = source => {
     while (true) {
       const { end, data } = await _read()
       if (end) break
-      yield data
+      return data
     }
   })()
 }
